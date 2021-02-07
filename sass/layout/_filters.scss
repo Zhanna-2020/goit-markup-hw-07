@@ -1,0 +1,22 @@
+
+/*filters*/
+
+.second-page {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  
+  .portfolio {
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: center;
+  }
+  
+  .portfolio .item + .item {
+    margin-left: 8px;
+  }
+  
+  .portfolio-title {
+    margin: 0;
+    padding: 0;
+  }

@@ -1,0 +1,38 @@
+
+
+/*footer-left*/
+
+.footer__left {
+    display: flex;
+    width: 231px;
+    flex-direction: column;
+  
+          .footer-address {
+            margin-top: 20px;
+            color: $light-color;
+            font-family: $main-font;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 1.71;
+            letter-spacing: 0.03em;
+          }
+
+         .footer-contacts {
+            margin-top: 9px;
+            margin-bottom: 0;
+          }
+  
+         .item + .item {
+         margin-top: 9px;
+         }
+  }
+  
+  
+  
+  
+  
+ 
+
+
+

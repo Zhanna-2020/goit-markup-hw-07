@@ -1,0 +1,36 @@
+
+
+/*overlay*/
+
+.overlay {
+  position: relative;
+  overflow: hidden;
+}
+
+
+.description {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 63px 24px 63px 24px;
+  width: 100%;
+  height: 100%;
+  font-family: $main-font;
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+  color: $light-color;
+  background-color: $description-bg-color;
+  transform: translateY(100%);
+  transition: transform $main-transition;
+
+  .project-link:hover &,
+  .project-link:focus & {
+  transform: translateY(0);
+  }
+}
+  
+

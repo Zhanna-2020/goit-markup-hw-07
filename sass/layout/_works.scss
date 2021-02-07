@@ -1,0 +1,15 @@
+
+/*works*/
+.section__works {
+    display: flex;
+        .item {
+              display: block;
+              position: relative;
+              }
+    
+        .item + .item {
+    margin-left: 30px;}
+  }
+  
+  
+  

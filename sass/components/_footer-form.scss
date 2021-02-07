@@ -1,0 +1,99 @@
+
+/*footer-form*/
+  
+.subscribe-title {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-family: $main-font;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $light-color;
+}
+
+
+.footer__subscribe {
+    margin-left: 93px;}
+  
+
+  .subscribe-info {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0;
+    margin-bottom: 0;
+    align-items: center;
+    
+
+    .input-email{
+      display: block;
+      margin: 0;
+      padding-left: 16px;
+      background-color: transparent;
+      border: none;
+      width: 358px;
+      height: 50px;
+      border: $border-imput-email;
+      background-color: $footer-background-color;
+      border-radius: 4px;
+      color: $border-color-email;}
+
+      .btn-send {
+        display: flex;
+        width: 200px;
+        height: 50px;
+        padding: 10px 28px 10px 29px;
+        margin-left: 12px;
+        font-family: $main-font;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 1.88;
+        letter-spacing: 0.06em;
+        border: none;
+        justify-content: center;
+        align-items: center;
+        border-radius: 4px;
+        color: $light-color;
+        background-color: $accent-color;
+        cursor: pointer;
+        }
+      
+    }
+
+
+    .btn-send svg {
+      margin-left: 10px;
+    }
+            
+
+  
+  .input-email:focus{
+    outline: none;
+    
+      &::placeholder{
+      font-family: $main-font;
+      font-size: 16px;
+      line-height: 1.25;
+      display: flex;
+      align-items: center;
+      letter-spacing: 0.03em;
+      color: $border-color-email;
+      }
+            
+     &:focus-within + &::placeholder{
+      color: $border-color-email;
+     }
+    }
+
+             
+              
+
+
+            
+  
+  
+  
+
+      

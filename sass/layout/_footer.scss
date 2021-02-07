@@ -1,0 +1,36 @@
+
+ /*footer*/
+
+.footer {
+    background-color: $footer-background-color;
+  
+  
+    .container {
+    display: flex;
+    align-items: baseline;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    }
+
+    .footer__left {
+      display: flex;
+      width: 231px;
+      flex-direction: column;
+    }
+
+    .footer__right {
+      display: flex;
+      width: 206px;
+      height: 80px;
+      margin-left: 70px;
+    }
+
+    .footer__subscribe {
+      width: 570px;
+      margin-left: 93px;
+    }
+
+}
+
+  
+  

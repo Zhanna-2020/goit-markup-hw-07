@@ -1,0 +1,37 @@
+.header-contacts {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+
+    .item + .item {
+      margin-left: 50px;
+    }
+  
+    svg {
+    margin-right: 10px;}
+    
+ }
+
+  
+  
+  .info   {
+    display: flex;
+    align-items: center;
+    fill: $main-text-color;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  
+    font-family: $main-font;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: $main-text-color;
+    transition: color $main-transition, fill $main-transition;
+  
+          &:hover,
+          &:focus {
+        color: $accent-color;
+        fill: $accent-color;
+          } 
+  }

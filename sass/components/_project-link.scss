@@ -1,0 +1,39 @@
+
+/*project-link*/
+
+
+.project-link {
+    transition-property: border $main-transition, box-shadow $main-transition;
+    
+            &:hover,
+            &:focus {
+            display: block;
+            box-shadow: $picture-shadow;
+          }
+        }
+
+  .project-name {
+    padding: 20px 24px 20px 24px;
+  
+          .project-title {
+            margin-top: 0;
+            margin-bottom: 4px;
+            color: $title-text-color;
+            font-family: $main-font;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 2;
+            letter-spacing: 0.06em;
+          }
+          
+          .project-text {
+            margin-top: 0;
+            margin-bottom: 0;
+            color: $main-text-color;
+            font-family: $main-font;
+            font-size: 16px;
+            line-height: 1.88;
+            letter-spacing: 0.03em;
+          }
+  }
+  

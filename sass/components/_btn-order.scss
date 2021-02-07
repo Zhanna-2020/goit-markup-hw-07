@@ -1,0 +1,16 @@
+.btn-order {
+    display: inline-block;
+    border-radius: 4px;
+    padding: 10px 32px;
+    min-width: 200px;
+    border: 1px transparent;
+    cursor: pointer;
+    color: $light-color;
+    background-color: $accent-color;
+    font-family: $main-font;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.88;
+    align-items: center;
+    letter-spacing: 0.06em;
+  }
