@@ -190,6 +190,7 @@
           background-image: url('../css/check.svg');
           background-size: contain;
           background-origin: border-box;
+
         }
       
         .checkbox:focus + &{
@@ -197,9 +198,12 @@
           border-color:  $accent-color;
         }
       }
-    
-      .checkbox:checked + .agree-text{
-        text-shadow: $picture-shadow;}
+      
+      .agree-text {
+        display: flex;
+      }
+
+      
     
    
     
