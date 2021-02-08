@@ -3,7 +3,7 @@
 
 
 .project-link {
-    transition-property: border $main-transition, box-shadow $main-transition;
+    transition: border $main-transition, box-shadow $main-transition;
     
             &:hover,
             &:focus {
