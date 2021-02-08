@@ -16,7 +16,7 @@
         justify-content: center;
         fill: $icon-color;
         background-color: $light-color;
-        transition-property: background-color $main-transition, fill $main-transition;
+        transition: background-color $main-transition, fill $main-transition;
       }
 }
 

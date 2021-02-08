@@ -11,7 +11,7 @@
     align-items: center;
     justify-content: center;
     fill: $icon-color;
-    transition-property: border-color $main-transition, fill $main-transition;
+    transition: border-color $main-transition, fill $main-transition;
   
   
          &:hover,
