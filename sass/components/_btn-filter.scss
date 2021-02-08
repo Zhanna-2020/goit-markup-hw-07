@@ -14,7 +14,7 @@
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  transition-property: box-shadow $main-transition;
+  transition: box-shadow $main-transition;
 
          &:hover,
          &:focus {
